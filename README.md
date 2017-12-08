@@ -29,7 +29,12 @@
     * 文件管理
 
 ## 技术栈
-    > python
-    > Flask
-    > Jinja2
-    > Mysql
+    > 后端
+        * python
+        * Flask
+        * Jinja2
+        * Mysql
+    > 前端
+        * Vue栈
+        * iView
+        * axios
