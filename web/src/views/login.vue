@@ -1,14 +1,8 @@
 <template>
-    <div class="index">
+    <div class="index bk-img">
         <Row type="flex" justify="center" align="middle">
             <Col span="24">
-                <h1>
-                    <img src="https://raw.githubusercontent.com/iview/iview/master/assets/logo.png">
-                </h1>
-                <h2>
-                    <p>Welcome to your iView app!</p>
-                    <Button type="ghost" @click="handleStart">Start iView</Button>
-                </h2>
+                <p class="title">登录系统</p>
             </Col>
         </Row>
     </div>
@@ -26,6 +20,11 @@
     };
 </script>
 <style scoped>
+    .bk-img{
+        background-position: left;
+        background: url(../statics/images/banner.jpg) no-repeat;
+        background-size: cover;
+    }
     .index {
         width: 100%;
         position: absolute;
@@ -34,25 +33,11 @@
         left: 0;
         text-align: center;
     }
-
-    .index h1 {
-        height: 150px;
-    }
-
-    .index h1 img {
-        height: 100%;
-    }
-
-    .index h2 {
-        color: #666;
-        margin-bottom: 200px;
-    }
-
-    .index h2 p {
-        margin: 0 0 50px;
-    }
-
     .index .ivu-row-flex {
         height: 100%;
+    }
+    .title {
+        font-size: 24px;
+        color: #FFFFFF;
     }
 </style>
